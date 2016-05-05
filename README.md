@@ -4,7 +4,7 @@ This tutorial will cover the installation of Umbraco 7.4 using SQL Server 2014 E
 * [Visual Studio Community 2015](https://www.visualstudio.com/products/visual-studio-community-vs)
 * [SQL Server 2014 Express](https://msdn.microsoft.com/en-us/sqlserver2014express.aspx)
 
-In Visual Studio create a new ASP.NET project, don't name it "Umbraco" or it will conflict with own Umbraco files. I'd also advise you to include folders and core references to MVC, but it's up to you.*(File -> New -> Project -> Templates -> Visual C# -> Web -> ASP.NET Web Application)*
+In Visual Studio create a new ASP.NET project, don't name it "Umbraco" or it will conflict with Umbraco own files. I'd also advise you to include folders and core references to MVC, but it's up to you.*(File -> New -> Project -> Templates -> Visual C# -> Web -> ASP.NET Web Application)*
 
 In order to include Umbraco to your project run `Install-Package UmbracoCms` in the Package Manager Console. *(Tools -> NuGet Package Manager -> Package Manager Console)*
 
